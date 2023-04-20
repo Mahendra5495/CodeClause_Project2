@@ -126,7 +126,7 @@ h3 {
   margin: 10px 0;
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .nav-bar {
     padding: 8px 0;
   }
@@ -134,10 +134,7 @@ h3 {
     font-size: 18px;
     padding: 10px 0;
   }
-}
-@media screen and (max-width: 385px) {
   .main {
     top: 65%;
-    margin-top: 25px;
   }
 }
