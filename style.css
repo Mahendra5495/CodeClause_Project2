@@ -132,11 +132,12 @@ h3 {
   }
   .nav-bar h1 {
     font-size: 18px;
-    padding: 10px 0  ;
+    padding: 10px 0;
   }
 }
 @media screen and (max-width: 385px) {
-  .main{
+  .main {
     top: 65%;
+    margin-top: 25px;
   }
 }
