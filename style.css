@@ -15,6 +15,7 @@ body {
   width: 70%;
   transform: translate(-50%, -50%);
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .nav-bar {
   background-color: #073b55;
@@ -39,7 +40,7 @@ body {
   padding: 50px 0;
 }
 h1,
-p {
+.time-display {
   text-align: center;
   margin: 0;
   padding: 0.4rem;
@@ -52,7 +53,7 @@ span {
   font-size: 1rem;
   margin: 0 2.5px;
 }
-p {
+.time-display {
   color: #043d5a;
   background-color: #fff;
   border-radius: 10px;
@@ -125,11 +126,17 @@ h3 {
   margin: 10px 0;
   text-align: center;
 }
-@media (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .nav-bar {
     padding: 8px 0;
   }
   .nav-bar h1 {
     font-size: 18px;
+    padding: 10px 0  ;
+  }
+}
+@media screen and (max-width: 385px) {
+  .main{
+    top: 65%;
   }
 }
