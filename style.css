@@ -148,6 +148,9 @@ footer{
   .main {
     top: 50%;
   }
+  .stopwatch{
+    padding: 25px 0;
+  }
 }
 @media screen and (max-width: 390px) {
   .main {
