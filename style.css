@@ -126,6 +126,17 @@ h3 {
   margin: 10px 0;
   text-align: center;
 }
+footer{
+  position: fixed;
+  width: 100%;
+  margin-top: 15px;
+  height: 35px;
+  background-color: #ceaf7c;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 1080px) {
   .nav-bar {
     padding: 8px 0;
@@ -135,6 +146,14 @@ h3 {
     padding: 10px 0;
   }
   .main {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main {
     top: 65%;
+  }
+  .stopwatch{
+    padding: 25px 0;
   }
 }
